@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  coreopenshift:
+    image: ${DOCKER_REGISTRY}coreopenshift
+    build:
+      context: .
+      dockerfile: coreopenshift/Dockerfile
